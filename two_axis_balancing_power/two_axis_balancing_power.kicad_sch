@@ -1,0 +1,79 @@
+(kicad_sch 
+  (version 20260306) 
+  (generator "eeschema") 
+  (generator_version "10.0") 
+  (uuid "58e6eab4-1958-4b8d-87c4-f6209b9a30a5") 
+  (paper "A4") 
+  (lib_symbols) 
+  (sheet 
+    (at 170.434 64.008) 
+    (size 95.25 80.264) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0.1524) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "ef22f4ec-740f-4a58-8431-11e970608af6") 
+    (property "Sheetname" "Carrier_Board" 
+      (at 170.434 63.2964 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "Carrier-Board.kicad_sch" 
+      (at 170.434 144.8566 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (instances 
+      (project "two_axis_balancing_power" 
+        (path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5" 
+          (page "3"))))) 
+  (sheet 
+    (at 35.052 64.262) 
+    (size 100.076 80.01) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0.1524) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "fcdaffbb-0cab-4f06-8e02-367e62a4cc6d") 
+    (property "Sheetname" "Power_Board" 
+      (at 35.052 63.5504 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "Power-Board.kicad_sch" 
+      (at 35.052 144.8566 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (instances 
+      (project "two_axis_balancing_power" 
+        (path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5" 
+          (page "2"))))) 
+  (sheet_instances 
+    (path "/" 
+      (page "1"))) 
+  (embedded_fonts no))
