@@ -416,21 +416,13 @@
         "uuid": "58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J7,#PWR1",
     "variants": []
   },
   "sheets": [
     [
       "58e6eab4-1958-4b8d-87c4-f6209b9a30a5",
       "Root"
-    ],
-    [
-      "fcdaffbb-0cab-4f06-8e02-367e62a4cc6d",
-      "Power_Board"
-    ],
-    [
-      "ef22f4ec-740f-4a58-8431-11e970608af6",
-      "Carrier_Board"
     ]
   ],
   "text_variables": {},

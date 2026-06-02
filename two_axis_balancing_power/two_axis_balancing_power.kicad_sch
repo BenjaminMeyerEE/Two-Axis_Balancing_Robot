@@ -3629,7 +3629,7 @@
 		(uuid "2dbe9ab9-f4f8-433f-95e0-bdbe0602739f")
 	)
 	(junction
-		(at 74.93 35.56)
+		(at 67.31 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37bb8d29-830a-4a61-bf1a-fed24b6b29ad")
@@ -3653,19 +3653,19 @@
 		(uuid "61fe438b-a6f2-459c-b612-f8049e49e252")
 	)
 	(junction
-		(at 64.77 52.07)
+		(at 57.15 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aacc682e-ab5d-4754-bb18-88ca47772c7a")
+		(uuid "b6b8cc26-01d2-42f6-a95b-9668e887b359")
 	)
 	(junction
-		(at 90.17 35.56)
+		(at 82.55 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be85fb8e-efea-4350-98ae-9dbb092225e7")
 	)
 	(junction
-		(at 64.77 43.18)
+		(at 57.15 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1b94139-3378-41cc-be60-850a4534af1f")
@@ -3696,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 35.56) (xy 74.93 35.56)
+			(xy 62.23 35.56) (xy 67.31 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3706,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 44.45) (xy 64.77 43.18)
+			(xy 57.15 44.45) (xy 57.15 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3736,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 38.1) (xy 52.07 52.07)
+			(xy 40.64 38.1) (xy 40.64 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3753,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "3279c300-aa24-49ce-aa61-0524758d3bff")
-	)
-	(wire
-		(pts
-			(xy 245.11 44.45) (xy 223.52 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3862165b-319a-4047-9d17-1d3ab3f2f323")
 	)
 	(wire
 		(pts
@@ -3796,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 64.77 52.07)
+			(xy 68.58 52.07) (xy 57.15 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3826,17 +3816,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 44.45) (xy 223.52 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "806bbc17-2860-40a7-acba-3631864c60c0")
-	)
-	(wire
-		(pts
-			(xy 52.07 52.07) (xy 64.77 52.07)
+			(xy 40.64 52.07) (xy 57.15 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +3846,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 74.93 43.18)
+			(xy 40.64 35.56) (xy 44.45 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9a7e6b-6ccd-4393-8660-83ae0953e67e")
+	)
+	(wire
+		(pts
+			(xy 57.15 43.18) (xy 67.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3906,16 +3896,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 41.91) (xy 223.52 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d26f8b49-d812-4c4d-bcfc-f79f7279f457")
-	)
-	(wire
-		(pts
 			(xy 179.07 24.13) (xy 190.5 24.13)
 		)
 		(stroke
@@ -3926,7 +3906,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 35.56) (xy 90.17 35.56)
+			(xy 67.31 35.56) (xy 82.55 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3943,6 +3923,16 @@
 			(type default)
 		)
 		(uuid "f6172bd2-666f-4697-885f-1453acd1f070")
+	)
+	(label "MOTOR_N"
+		(at 262.89 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07c3125f-4ff3-4879-9222-f3f2538d362d")
 	)
 	(label ""
 		(at 221.7948 41.91 0)
@@ -3964,8 +3954,38 @@
 		)
 		(uuid "0eb83ff0-211e-440c-8fb1-a7ac2a679d7a")
 	)
+	(label "MOTOR_P"
+		(at 262.89 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12c84166-9f38-4331-9b01-4a01e6e3c103")
+	)
+	(label "MOTOR_N"
+		(at 223.52 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2163fe21-9ef7-4b51-ba1f-78258e031e58")
+	)
+	(label "V_BAT_BYP"
+		(at 262.89 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "239d5fbb-a979-4831-a918-5a340d8d0d81")
+	)
 	(label "PWMA"
-		(at 256.54 118.11 0)
+		(at 266.7 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3975,7 +3995,7 @@
 		(uuid "30ab7556-97eb-4654-a1d9-c6b0c96e7d5d")
 	)
 	(label "AIN2"
-		(at 242.57 118.11 180)
+		(at 252.73 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3983,6 +4003,16 @@
 			(justify right bottom)
 		)
 		(uuid "35f504ac-0671-4de4-9459-3e35ce7055f7")
+	)
+	(label "V_BAT_BYP"
+		(at 44.45 35.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a06100a-bddb-427e-b3b6-3bbb19670cdd")
 	)
 	(label "BAT_LEV"
 		(at 124.46 34.29 90)
@@ -4025,7 +4055,7 @@
 		(uuid "5177f5db-7596-4522-91f1-a49f8985daf6")
 	)
 	(label "BAT_LEV"
-		(at 243.84 113.03 180)
+		(at 254 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4035,7 +4065,7 @@
 		(uuid "611e2824-6170-4431-aef3-704b8c9d65e8")
 	)
 	(label "GND"
-		(at 256.54 120.65 0)
+		(at 266.7 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4045,7 +4075,7 @@
 		(uuid "6304c170-bad6-4ade-943a-595de4b0f31c")
 	)
 	(label "BAT_LOW"
-		(at 256.54 113.03 0)
+		(at 266.7 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4065,7 +4095,7 @@
 		(uuid "70bd9529-4832-42b4-994b-b09b0e602b44")
 	)
 	(label "AIN1"
-		(at 243.84 115.57 180)
+		(at 254 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4085,7 +4115,7 @@
 		(uuid "7b9e9b6d-9faf-4ad2-8ce6-348f1713b2be")
 	)
 	(label "GND"
-		(at 256.54 110.49 0)
+		(at 266.7 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4095,7 +4125,7 @@
 		(uuid "8c1a939b-a2b8-4364-806e-86bb0c5dd7b4")
 	)
 	(label "+5V"
-		(at 243.84 110.49 180)
+		(at 254 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4105,7 +4135,7 @@
 		(uuid "9136ca72-7963-4d60-ae38-f048510a25de")
 	)
 	(label "GND"
-		(at 256.54 115.57 0)
+		(at 266.7 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4114,8 +4144,18 @@
 		)
 		(uuid "95d03bef-1059-410f-8fc6-85599274b95a")
 	)
+	(label "MOTOR_P"
+		(at 223.52 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bdfa58f-bfca-44df-90ba-bb2f9f303ba9")
+	)
 	(label "STBY"
-		(at 243.84 120.65 180)
+		(at 254 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4146,7 +4186,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 39.37 0)
+		(at 82.55 39.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4158,7 +4198,7 @@
 		(fields_autoplaced yes)
 		(uuid "0230010c-7e3a-4f7f-bb36-2d777cff28bd")
 		(property "Reference" "C6"
-			(at 93.98 38.0999 0)
+			(at 86.36 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4169,7 +4209,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 93.98 40.6399 0)
+			(at 86.36 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4180,7 +4220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.2048 43.18 0)
+			(at 81.5848 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +4231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 39.37 0)
+			(at 82.55 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4202,7 +4242,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 39.37 0)
+			(at 82.55 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4219,8 +4259,8 @@
 			(uuid "85bcde90-a72d-4955-86ae-d864ccce61d3")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "C6")
 					(unit 1)
 				)
@@ -4297,8 +4337,8 @@
 			(uuid "a6957b09-9eae-4402-bfef-dabedac3cc2f")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -4375,8 +4415,8 @@
 			(uuid "4c0ec0f2-8d7e-4ba0-9dc9-40863d79ae90")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -4453,8 +4493,8 @@
 			(uuid "3b472152-e448-4dd7-922e-a68d6c71e1fa")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -4534,8 +4574,8 @@
 			(uuid "cda02303-b212-46ae-9539-be34a8c94dc5")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R16")
 					(unit 1)
 				)
@@ -4614,8 +4654,8 @@
 			(uuid "4efe32c2-b7c7-47b2-8c14-f44e07d9866a")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R11")
 					(unit 1)
 				)
@@ -4696,9 +4736,87 @@
 			(uuid "ca262a51-76e5-4022-a0e9-fda4e32e78d9")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a14663-d0be-41df-b0c8-cd945a0ef5c1")
+		(property "Reference" "#PWR01"
+			(at 262.89 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "488e4b92-e129-4c81-a41e-e6e9fefb0a23")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4776,9 +4894,89 @@
 			(uuid "ccd426ff-55db-425a-bc15-d161aaf349f3")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 257.81 53.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e5a0373-f310-4fdb-a1ee-7c41ae08d7ee")
+		(property "Reference" "J7"
+			(at 254.254 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 249.428 55.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df195be8-9810-448c-9573-6c16c8c07650")
+		)
+		(pin "1"
+			(uuid "0659d1d0-9a4b-458a-ac66-0f3e54bc4d34")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4854,8 +5052,8 @@
 			(uuid "c85a3326-f39c-4460-a70f-908d57224fc0")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -4935,8 +5133,8 @@
 			(uuid "80d0b88a-23c2-4a19-a473-0b2a33cef8d4")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R15")
 					(unit 1)
 				)
@@ -5013,8 +5211,8 @@
 			(uuid "78371216-783a-40f0-8584-4ef8092c6f59")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -5095,8 +5293,8 @@
 			(uuid "ddd6a00e-607a-4b82-b310-f009691b24b8")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R14")
 					(unit 1)
 				)
@@ -5175,8 +5373,8 @@
 			(uuid "fa1a543e-54bb-4267-bf94-d195be3f571c")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R12")
 					(unit 1)
 				)
@@ -5273,8 +5471,8 @@
 			(uuid "87d38ed5-886c-404c-9a61-548ce28adfc4")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "U5")
 					(unit 2)
 				)
@@ -5283,7 +5481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 43.18 0)
+		(at 82.55 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5294,7 +5492,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cac3ede-4770-42b4-ac8e-7543dd906a0b")
 		(property "Reference" "#PWR029"
-			(at 90.17 49.53 0)
+			(at 82.55 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,7 +5503,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 48.26 0)
+			(at 82.55 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5315,7 +5513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 43.18 0)
+			(at 82.55 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5326,7 +5524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 43.18 0)
+			(at 82.55 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5337,7 +5535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 43.18 0)
+			(at 82.55 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,8 +5549,8 @@
 			(uuid "20595163-5437-48b5-95a1-4860409a7ca4")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -5449,8 +5647,8 @@
 			(uuid "c437b7fc-2d8e-4d26-9d48-b9b59862982a")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "U5")
 					(unit 3)
 				)
@@ -5527,8 +5725,8 @@
 			(uuid "1e25c0a8-d9bd-4c2c-b9cd-1b0320b41662")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -5605,8 +5803,8 @@
 			(uuid "72fe89cf-173a-4096-a147-4f1b34021a81")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -5683,8 +5881,8 @@
 			(uuid "6993efe4-8097-427d-8237-42e16c9643df")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -5781,8 +5979,8 @@
 			(uuid "c437b7fc-2d8e-4d26-9d48-b9b598629828")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "U5")
 					(unit 1)
 				)
@@ -5864,8 +6062,8 @@
 			(uuid "4ac32e56-26e3-4d16-bbc8-47784f0cb590")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "C8")
 					(unit 1)
 				)
@@ -5942,8 +6140,8 @@
 			(uuid "bae44261-05ca-4553-8a8c-a73a3e592329")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -6090,8 +6288,8 @@
 			(uuid "ace06b85-ece0-43fc-8aea-464a69b04800")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "U6")
 					(unit 1)
 				)
@@ -6173,8 +6371,8 @@
 			(uuid "c42bebf7-9c25-4af1-9b1c-05a97bb690a9")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "C9")
 					(unit 1)
 				)
@@ -6251,8 +6449,8 @@
 			(uuid "28f9d87c-4a44-410e-a91d-f830e1b4c387")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -6329,8 +6527,8 @@
 			(uuid "f3b5733a-8f63-43a8-8744-0fca8ce7aa4a")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -6407,8 +6605,8 @@
 			(uuid "9de900fe-6a4f-4421-99d0-b1caba59a5a5")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -6485,8 +6683,8 @@
 			(uuid "e6e7088e-c72c-4d48-8aba-0cf7065b0271")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR039")
 					(unit 1)
 				)
@@ -6563,8 +6761,8 @@
 			(uuid "3f1499cb-a37e-448b-8347-e961ec33bd24")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -6640,8 +6838,8 @@
 			(uuid "010e487f-0fc1-4c9d-8ba9-a8f472ac8768")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -6731,8 +6929,8 @@
 			(uuid "7b97aa5e-f7d6-4339-a057-388138926fb0")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "D4")
 					(unit 1)
 				)
@@ -6840,8 +7038,8 @@
 			(uuid "a45564b5-a7ae-40f7-a1f9-f6bc642fa2c0")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "U4")
 					(unit 1)
 				)
@@ -6918,8 +7116,8 @@
 			(uuid "c417430d-620b-42bd-8a38-14e657ae0b40")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -6996,8 +7194,8 @@
 			(uuid "2f5f0591-a267-482e-931a-3f8755237386")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -7006,7 +7204,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 46.99 35.56 0)
+		(at 35.56 35.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7017,7 +7215,7 @@
 		(dnp no)
 		(uuid "a745bcf8-3691-4b3b-ae46-bfe336f0f48f")
 		(property "Reference" "J2"
-			(at 43.434 35.56 0)
+			(at 32.004 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7027,7 +7225,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 38.608 37.592 0)
+			(at 27.178 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7037,7 +7235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 35.56 0)
+			(at 35.56 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,7 +7246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 35.56 0)
+			(at 35.56 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,7 +7257,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 35.56 0)
+			(at 35.56 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7076,8 +7274,8 @@
 			(uuid "05593b3a-1f4b-4e9a-abe8-a8035db36c52")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "J2")
 					(unit 1)
 				)
@@ -7158,8 +7356,8 @@
 			(uuid "6552a2c8-51dd-4f1b-a28d-642b0d5d0c70")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R13")
 					(unit 1)
 				)
@@ -7241,8 +7439,8 @@
 			(uuid "c807a59a-9e49-402e-9278-b57864d3b56e")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "C7")
 					(unit 1)
 				)
@@ -7319,8 +7517,8 @@
 			(uuid "51382e9e-cc5c-4596-b690-efd7a6fa1a25")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -7397,8 +7595,8 @@
 			(uuid "95c3417d-8571-4171-b2b0-7c1b57e3e634")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -7407,7 +7605,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 64.77 48.26 0)
+		(at 57.15 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7418,7 +7616,7 @@
 		(fields_autoplaced yes)
 		(uuid "b75060e4-d8e3-4fae-be78-6286e493f0a1")
 		(property "Reference" "R10"
-			(at 67.31 46.9899 0)
+			(at 59.69 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7429,7 +7627,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 67.31 49.5299 0)
+			(at 59.69 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7440,7 +7638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.786 48.514 90)
+			(at 58.166 48.514 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7451,7 +7649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 48.26 0)
+			(at 57.15 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7660,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 64.77 48.26 0)
+			(at 57.15 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7479,8 +7677,8 @@
 			(uuid "004a36ca-f48a-4a9f-80d0-e5fab8b173bd")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R10")
 					(unit 1)
 				)
@@ -7489,7 +7687,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 74.93 39.37 270)
+		(at 67.31 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7500,7 +7698,7 @@
 		(fields_autoplaced yes)
 		(uuid "b84bb4a9-3d27-4cb4-889f-10d0582f3fd8")
 		(property "Reference" "D3"
-			(at 77.47 38.0999 90)
+			(at 69.85 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7511,7 +7709,7 @@
 			)
 		)
 		(property "Value" "D_Zener"
-			(at 77.47 40.6399 90)
+			(at 69.85 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7522,7 +7720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 39.37 0)
+			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,7 +7731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 39.37 0)
+			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +7742,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 74.93 39.37 0)
+			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7561,8 +7759,8 @@
 			(uuid "78b565af-99ac-44b6-8add-1a7b192e19cd")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "D3")
 					(unit 1)
 				)
@@ -7571,7 +7769,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 248.92 115.57 0)
+		(at 259.08 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7582,7 +7780,7 @@
 		(fields_autoplaced yes)
 		(uuid "c511ba0e-b506-459c-b7fc-e3426113d03c")
 		(property "Reference" "J5"
-			(at 250.19 104.14 0)
+			(at 260.35 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7592,7 +7790,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05"
-			(at 250.19 106.68 0)
+			(at 260.35 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7602,7 +7800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 115.57 0)
+			(at 259.08 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7613,7 +7811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 115.57 0)
+			(at 259.08 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7624,7 +7822,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 248.92 115.57 0)
+			(at 259.08 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7665,8 +7863,8 @@
 			(uuid "0e9fe59c-72d6-4156-9cf0-e98051a738bf")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "J5")
 					(unit 1)
 				)
@@ -7743,8 +7941,8 @@
 			(uuid "0d40a1c7-a90c-4241-a0d9-7b599e4431c2")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -7753,7 +7951,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 250.19 41.91 0)
+		(at 257.81 26.67 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7763,7 +7962,7 @@
 		(dnp no)
 		(uuid "de0819e7-0e6c-4992-89d9-a18385f4d5dc")
 		(property "Reference" "J6"
-			(at 253.746 41.91 0)
+			(at 254.254 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7773,7 +7972,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 258.572 43.942 0)
+			(at 249.428 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7783,7 +7982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 41.91 0)
+			(at 257.81 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7794,7 +7993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 41.91 0)
+			(at 257.81 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,7 +8004,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 250.19 41.91 0)
+			(at 257.81 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,8 +8021,8 @@
 			(uuid "b6f56618-0c76-4cdc-b942-f188ea8860e1")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "J6")
 					(unit 1)
 				)
@@ -7905,8 +8104,8 @@
 			(uuid "f80cd1a8-f1b1-464d-aa42-b7b50f06e048")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "C10")
 					(unit 1)
 				)
@@ -7915,7 +8114,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 64.77 38.1 90)
+		(at 57.15 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7926,7 +8125,7 @@
 		(fields_autoplaced yes)
 		(uuid "e53db3ea-b119-488c-99ec-f90989b0d1cc")
 		(property "Reference" "Q2"
-			(at 64.77 29.21 90)
+			(at 57.15 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7936,7 +8135,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 64.77 31.75 90)
+			(at 57.15 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7946,7 +8145,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 66.675 33.02 0)
+			(at 59.055 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7959,7 +8158,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 68.58 33.02 0)
+			(at 60.96 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7971,7 +8170,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 64.77 38.1 0)
+			(at 57.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7991,8 +8190,8 @@
 			(uuid "6564c781-e3e3-4b82-a579-88f771a5b573")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -8069,8 +8268,8 @@
 			(uuid "a5a7768d-1a4b-4c2a-9069-349837b67a9c")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -8147,8 +8346,8 @@
 			(uuid "38963267-982b-4aa5-9849-8a1e2eb60f83")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -8157,7 +8356,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 90.17 35.56 0)
+		(at 82.55 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8168,7 +8367,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea556ccb-ef8b-4309-9694-4efb48c2db22")
 		(property "Reference" "#PWR028"
-			(at 90.17 39.37 0)
+			(at 82.55 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8179,7 +8378,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 90.17 30.48 0)
+			(at 82.55 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8189,7 +8388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 35.56 0)
+			(at 82.55 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,7 +8399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 35.56 0)
+			(at 82.55 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8211,7 +8410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 90.17 35.56 0)
+			(at 82.55 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8225,8 +8424,8 @@
 			(uuid "7917b57a-fd21-4c7d-8051-cf404d8abccd")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -8235,7 +8434,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 52.07 0)
+		(at 68.58 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8246,7 +8445,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee58d143-3740-446b-9c3e-a9bfe4fc85f0")
 		(property "Reference" "#PWR08"
-			(at 76.2 58.42 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,7 +8456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 57.15 0)
+			(at 68.58 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8267,7 +8466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 52.07 0)
+			(at 68.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8278,7 +8477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 52.07 0)
+			(at 68.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8289,7 +8488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 52.07 0)
+			(at 68.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8303,8 +8502,8 @@
 			(uuid "42c01c40-debf-41d5-98b2-cf07c83bd991")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -8381,8 +8580,8 @@
 			(uuid "7cac06fa-7363-49b0-a9d7-ea9b468b4c98")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -8391,7 +8590,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 55.88 35.56 90)
+		(at 48.26 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8402,7 +8601,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa6a71c4-498e-4b10-8a12-bd011e285ddd")
 		(property "Reference" "F2"
-			(at 55.88 29.21 90)
+			(at 48.26 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8412,7 +8611,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 55.88 31.75 90)
+			(at 48.26 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8422,7 +8621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 34.29 0)
+			(at 53.34 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8434,7 +8633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 35.56 0)
+			(at 48.26 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8445,7 +8644,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 55.88 35.56 0)
+			(at 48.26 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8462,12 +8661,18 @@
 			(uuid "9826136d-9a86-4813-9bbc-9f07daf03be1")
 		)
 		(instances
-			(project "Two_axis_balancing_robot"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5/fcdaffbb-0cab-4f06-8e02-367e62a4cc6d"
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "F2")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
