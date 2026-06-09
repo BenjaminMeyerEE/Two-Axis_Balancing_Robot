@@ -4026,28 +4026,18 @@
 		)
 		(uuid "2163fe21-9ef7-4b51-ba1f-78258e031e58")
 	)
-	(label "V_BAT_BYP"
-		(at 265.43 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "239d5fbb-a979-4831-a918-5a340d8d0d81")
-	)
 	(label "PWMA"
-		(at 266.7 101.6 0)
+		(at 254 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "30ab7556-97eb-4654-a1d9-c6b0c96e7d5d")
 	)
 	(label "AIN2"
-		(at 252.73 101.6 180)
+		(at 254 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4055,16 +4045,6 @@
 			(justify right bottom)
 		)
 		(uuid "35f504ac-0671-4de4-9459-3e35ce7055f7")
-	)
-	(label "V_BAT_BYP"
-		(at 38.1 34.29 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a06100a-bddb-427e-b3b6-3bbb19670cdd")
 	)
 	(label "BAT_LEV"
 		(at 129.54 34.29 90)
@@ -4107,7 +4087,7 @@
 		(uuid "5177f5db-7596-4522-91f1-a49f8985daf6")
 	)
 	(label "BAT_LEV"
-		(at 254 96.52 180)
+		(at 254 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4117,7 +4097,7 @@
 		(uuid "611e2824-6170-4431-aef3-704b8c9d65e8")
 	)
 	(label "GND"
-		(at 266.7 104.14 0)
+		(at 266.7 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4127,7 +4107,7 @@
 		(uuid "6304c170-bad6-4ade-943a-595de4b0f31c")
 	)
 	(label "BAT_LOW"
-		(at 266.7 96.52 0)
+		(at 266.7 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4147,12 +4127,12 @@
 		(uuid "70bd9529-4832-42b4-994b-b09b0e602b44")
 	)
 	(label "AIN1"
-		(at 254 99.06 180)
+		(at 266.7 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "73c9804f-e5c2-440d-bd1c-0f996bc2021a")
 	)
@@ -4167,7 +4147,7 @@
 		(uuid "7b9e9b6d-9faf-4ad2-8ce6-348f1713b2be")
 	)
 	(label "GND"
-		(at 266.7 93.98 0)
+		(at 266.7 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4177,7 +4157,7 @@
 		(uuid "8c1a939b-a2b8-4364-806e-86bb0c5dd7b4")
 	)
 	(label "+5V"
-		(at 254 93.98 180)
+		(at 254 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4187,7 +4167,7 @@
 		(uuid "9136ca72-7963-4d60-ae38-f048510a25de")
 	)
 	(label "GND"
-		(at 266.7 99.06 0)
+		(at 266.7 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4207,7 +4187,7 @@
 		(uuid "9bdfa58f-bfca-44df-90ba-bb2f9f303ba9")
 	)
 	(label "STBY"
-		(at 254 104.14 180)
+		(at 254 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4249,7 +4229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0230010c-7e3a-4f7f-bb36-2d777cff28bd")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 80.01 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4271,7 +4251,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.2348 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4313,7 +4293,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f75db14-7199-47cd-89a2-8267b8df0e6a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR026"
 			(at 215.0852 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4391,7 +4371,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR050")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4409,7 +4389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17eb2d00-d0dd-410e-b52d-1e975722d48c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR025"
 			(at 204.9252 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4469,7 +4449,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR049")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4487,7 +4467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c78fe27-f57e-4fe9-b4b6-4e3665d7b354")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR07"
 			(at 106.68 127 0)
 			(hide yes)
 			(show_name no)
@@ -4547,7 +4527,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR034")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4564,7 +4544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d4b6a52-a75d-43b1-88b4-289c789223ff")
-		(property "Reference" "R16"
+		(property "Reference" "R8"
 			(at 117.856 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,7 +4566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.444 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -4628,7 +4608,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R16")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4646,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "250c54b3-70b6-483e-aaf0-b3d51b8385c2")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 118.11 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 117.856 35.306 90)
 			(hide yes)
 			(show_name no)
@@ -4708,7 +4688,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4726,7 +4706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "298ee6eb-7a07-4b18-9d10-14976ba1369c")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 167.64 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,7 +4728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.116 129.794 90)
 			(hide yes)
 			(show_name no)
@@ -4790,85 +4770,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 265.43 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31a14663-d0be-41df-b0c8-cd945a0ef5c1")
-		(property "Reference" "#PWR01"
-			(at 265.43 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "488e4b92-e129-4c81-a41e-e6e9fefb0a23")
-		)
-		(instances
-			(project "two_axis_balancing_power"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR01")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4886,7 +4788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b81ed0-a317-4894-91de-1fb6f7944ec9")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 152.4 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,7 +4808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.146 37.846 90)
 			(hide yes)
 			(show_name no)
@@ -4948,87 +4850,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 260.35 53.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e5a0373-f310-4fdb-a1ee-7c41ae08d7ee")
-		(property "Reference" "J7"
-			(at 256.794 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 251.968 55.372 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 260.35 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "df195be8-9810-448c-9573-6c16c8c07650")
-		)
-		(pin "1"
-			(uuid "0659d1d0-9a4b-458a-ac66-0f3e54bc4d34")
-		)
-		(instances
-			(project "two_axis_balancing_power"
-				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "J7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5046,7 +4868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41638568-ef69-42a1-ac79-4fc9e17f0f3b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR022"
 			(at 192.2252 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5106,7 +4928,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR046")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5123,7 +4945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "416df3b3-c62f-4b7b-9f0d-e2810898fff7")
-		(property "Reference" "R15"
+		(property "Reference" "R7"
 			(at 117.602 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5145,7 +4967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.476 117.094 90)
 			(hide yes)
 			(show_name no)
@@ -5187,7 +5009,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5205,7 +5027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439a8275-eb41-4c9f-bca2-d5a39c98d416")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR012"
 			(at 121.92 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5265,7 +5087,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR036")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5283,7 +5105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4649c58e-1d09-4df4-b995-2729f22ed45f")
-		(property "Reference" "R14"
+		(property "Reference" "R6"
 			(at 127 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,7 +5127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.476 80.264 90)
 			(hide yes)
 			(show_name no)
@@ -5347,7 +5169,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R14")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5365,7 +5187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cae3aa1-56ec-4074-98dc-b5b6c4d0b943")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 120.65 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5385,7 +5207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.396 77.216 90)
 			(hide yes)
 			(show_name no)
@@ -5427,7 +5249,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5445,7 +5267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5276eb00-5541-49d4-84ec-b761f627767a")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 275.59 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5465,7 +5287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 275.59 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5525,7 +5347,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "U5")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -5543,7 +5365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cac3ede-4770-42b4-ac8e-7543dd906a0b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR02"
 			(at 76.2 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5603,7 +5425,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR029")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5621,7 +5443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63cfd47d-f40c-4b66-881b-13fc4281c63f")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 140.97 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5701,7 +5523,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "U5")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -5719,7 +5541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "665c93f4-b76f-41fd-bc4d-d6cfa926eeaa")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR06"
 			(at 99.06 127 0)
 			(hide yes)
 			(show_name no)
@@ -5779,7 +5601,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR031")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5797,7 +5619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69d6caed-d2af-4725-965a-454fd90dc6b1")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR024"
 			(at 197.3052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5857,7 +5679,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR048")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5875,7 +5697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b387258-f052-468b-9c89-f2cac1bef8ef")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR011"
 			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5935,7 +5757,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR033")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5953,7 +5775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f4bdf1f-f421-4996-aa6a-515b07fab8a7")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 140.97 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5973,7 +5795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 140.97 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6033,7 +5855,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6050,7 +5872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70c9cd8b-2749-4137-b97f-4e3aa05c9ac8")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 110.49 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,7 +5894,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.7148 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6114,7 +5936,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6132,7 +5954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787489de-8a3c-4058-b05d-c10b23556668")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR09"
 			(at 111.76 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6192,7 +6014,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR032")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6210,7 +6032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c41a8f0-a4f4-454b-a227-02802437836b")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 222.3085 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,7 +6162,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6359,7 +6181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cb77c9a-8601-4c64-a12a-b9b6eaca548a")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 178.6148 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,7 +6203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -6423,7 +6245,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8053605b-ce73-42c4-8758-5ef17135dee6")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 93.98 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6464,7 +6286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.2048 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6506,7 +6328,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6524,7 +6346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80eff1dd-aace-489d-998e-14775ff79397")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR020"
 			(at 181.61 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6584,7 +6406,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR044")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "815ba781-07dd-44cb-9648-fa9679363a4f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR05"
 			(at 99.06 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6662,7 +6484,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR030")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6680,7 +6502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81661336-6c87-4c24-af75-d703f5512e05")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR08"
 			(at 106.68 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6740,7 +6562,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR035")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6758,7 +6580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "844329e2-9962-48e8-81b7-bbbaad322dd0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR015"
 			(at 132.08 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6818,7 +6640,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR039")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6836,7 +6658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86138549-8ca9-4749-aa90-287edef5ed34")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR017"
 			(at 163.83 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6896,7 +6718,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR041")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6913,7 +6735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bcda545-7d92-46ac-a2fa-0b1415aa0da2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR014"
 			(at 124.46 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6973,7 +6795,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR038")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6991,7 +6813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "929e74d2-b9a1-4771-8e87-05a339a0c365")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 161.6075 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7011,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 160.02 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7064,7 +6886,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7082,7 +6904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99f8d1b7-9647-4c5b-9b48-3def77b13c9d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR010"
 			(at 111.76 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7142,7 +6964,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR053")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7160,7 +6982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a25e024-3df3-4c03-8080-57e3a9ee62af")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 144.78 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7180,7 +7002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "11L-LGA-M_RPL-1_RCP"
+		(property "Footprint" "RCL-1:11L-LGA-M_RPL-1_RCP"
 			(at 124.46 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7251,7 +7073,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7269,7 +7091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c134b9-fdac-4437-addb-475666f71875")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR013"
 			(at 124.46 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7329,7 +7151,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR037")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7347,7 +7169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d6ab52-62c4-4e6c-b3a0-844c7227a1bd")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR028"
 			(at 220.1652 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7407,7 +7229,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR052")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7425,7 +7247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a745bcf8-3691-4b3b-ae46-bfe336f0f48f")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 25.654 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7445,7 +7267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 29.21 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7487,7 +7309,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7505,7 +7327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9465571-f554-4018-a6f8-a28eee96195a")
-		(property "Reference" "R13"
+		(property "Reference" "R5"
 			(at 124.46 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +7349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 122.936 38.354 90)
 			(hide yes)
 			(show_name no)
@@ -7569,7 +7391,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R13")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7588,7 +7410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3df007-ab22-406a-9956-966e37981307")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 95.25 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7610,7 +7432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.0252 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7652,7 +7474,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7670,7 +7492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae01c977-b760-4940-81a8-e7cb65409fd3")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR027"
 			(at 217.6252 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7552,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR051")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7748,7 +7570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afc17be0-426e-42b3-b1dd-8caa42a336b0")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR021"
 			(at 188.4152 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7808,7 +7630,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR045")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7825,7 +7647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4065398-174f-461a-930b-edf9b5a40e01")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 119.126 136.652 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7845,7 +7667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.634 132.334 90)
 			(hide yes)
 			(show_name no)
@@ -7887,7 +7709,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7905,7 +7727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b75060e4-d8e3-4fae-be78-6286e493f0a1")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 53.34 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7927,7 +7749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 51.816 47.244 90)
 			(hide yes)
 			(show_name no)
@@ -7969,7 +7791,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "R10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7987,7 +7809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b84bb4a9-3d27-4cb4-889f-10d0582f3fd8")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 63.5 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8009,7 +7831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 60.96 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8051,7 +7873,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8059,7 +7881,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 259.08 99.06 0)
+		(at 259.08 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8069,8 +7891,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c511ba0e-b506-459c-b7fc-e3426113d03c")
-		(property "Reference" "J5"
-			(at 260.35 87.63 0)
+		(property "Reference" "J2"
+			(at 260.35 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8080,7 +7902,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05"
-			(at 260.35 90.17 0)
+			(at 260.35 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8089,8 +7911,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 259.08 99.06 0)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+			(at 259.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8101,7 +7923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 99.06 0)
+			(at 259.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8112,7 +7934,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 259.08 99.06 0)
+			(at 259.08 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8155,7 +7977,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8173,7 +7995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb6a46d-baed-4048-8d43-84d0b8b18c2d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR016"
 			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8233,7 +8055,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR040")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8251,7 +8073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd57f601-3c36-404d-90ad-271aa5be3bde")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR04"
 			(at 90.17 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8311,7 +8133,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR054")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8329,7 +8151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de0819e7-0e6c-4992-89d9-a18385f4d5dc")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 256.794 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8349,7 +8171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 260.35 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8391,7 +8213,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8410,7 +8232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e165b300-c895-44b3-8990-68b5d1f2a049")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 191.77 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8432,7 +8254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.7304 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8474,7 +8296,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8492,7 +8314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e53db3ea-b119-488c-99ec-f90989b0d1cc")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 50.8 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8560,7 +8382,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8578,7 +8400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e789301c-6383-4c33-8bac-c5821c18fe14")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR018"
 			(at 165.1 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8638,7 +8460,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR042")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8656,7 +8478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c67a1d-3a5f-437d-b77e-43ab2197ebd3")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR023"
 			(at 194.7652 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8716,7 +8538,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR047")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8734,7 +8556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea556ccb-ef8b-4309-9694-4efb48c2db22")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR03"
 			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8794,7 +8616,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR028")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8812,7 +8634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee58d143-3740-446b-9c3e-a9bfe4fc85f0")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR01"
 			(at 62.23 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8872,7 +8694,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR08")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8890,7 +8712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c5e94a-7855-4cba-9507-2145e6d663f9")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR019"
 			(at 181.61 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8950,7 +8772,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR043")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8968,7 +8790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa6a71c4-498e-4b10-8a12-bd011e285ddd")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 41.91 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8988,7 +8810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 46.99 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9031,7 +8853,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
