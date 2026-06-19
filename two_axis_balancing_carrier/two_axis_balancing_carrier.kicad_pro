@@ -500,7 +500,30 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(255, 0, 0)",
+      "+5V": "rgb(255, 0, 0)",
+      "/AIN1": "rgb(255, 255, 0)",
+      "/AIN2": "rgb(255, 255, 0)",
+      "/BAT_LEV": "rgb(255, 255, 0)",
+      "/BAT_LOW": "rgb(255, 255, 0)",
+      "/CANH": "rgb(0, 255, 255)",
+      "/CANL": "rgb(0, 255, 255)",
+      "/CS": "rgb(0, 255, 0)",
+      "/ENC_A": "rgb(0, 255, 255)",
+      "/ENC_B": "rgb(0, 255, 255)",
+      "/INT1": "rgb(0, 255, 0)",
+      "/INT2": "rgb(0, 255, 0)",
+      "/PWMA": "rgb(255, 255, 0)",
+      "/RX": "rgb(0, 255, 0)",
+      "/SCLK": "rgb(0, 255, 0)",
+      "/SDI": "rgb(0, 255, 0)",
+      "/SDO": "rgb(0, 255, 0)",
+      "/STBY": "rgb(255, 255, 0)",
+      "/TX": "rgb(0, 255, 0)",
+      "GND": "rgb(255, 255, 255)",
+      "Net-(U2-BP)": "rgb(255, 0, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

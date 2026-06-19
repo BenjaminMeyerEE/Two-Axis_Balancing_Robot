@@ -535,7 +535,7 @@
       "/MOTOR_P": "rgb(0, 0, 255)",
       "/PWMA": "rgb(255, 255, 0)",
       "/STBY": "rgb(255, 255, 0)",
-      "GND": "rgb(255, 255, 255)",
+      "GND": "rgb(0, 0, 255)",
       "Net-(D1-A)": "rgb(0, 255, 0)",
       "Net-(D2-A)": "rgb(0, 255, 0)",
       "Net-(J1-Pin_1)": "rgb(0, 0, 255)",
@@ -682,7 +682,7 @@
         "uuid": "58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-2,#PWR1-31,C1-6,TP1-9,F1,R1-10,J1-3,Q1,U1-3",
     "variants": []
   },
   "sheets": [

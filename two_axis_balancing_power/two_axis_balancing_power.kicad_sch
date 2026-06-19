@@ -301,6 +301,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -4016,6 +4139,26 @@
 		)
 		(uuid "12c84166-9f38-4331-9b01-4a01e6e3c103")
 	)
+	(label "BAT_REF"
+		(at 33.02 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12d1754f-fda5-4d7b-a414-1967b9f6eec2")
+	)
+	(label "AIN2"
+		(at 33.02 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1548ac1c-5cf0-4c49-85e5-db633edbd9ee")
+	)
 	(label "MOTOR_N"
 		(at 227.7852 46.99 0)
 		(effects
@@ -4045,6 +4188,16 @@
 			(justify right bottom)
 		)
 		(uuid "35f504ac-0671-4de4-9459-3e35ce7055f7")
+	)
+	(label "STBY"
+		(at 33.02 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37f34d33-ecab-4284-adea-17670e75b2c9")
 	)
 	(label "BAT_LEV"
 		(at 129.54 34.29 90)
@@ -4116,6 +4269,16 @@
 		)
 		(uuid "6311fd4f-0700-4834-ae85-ac620d303d7e")
 	)
+	(label "Buck_PG"
+		(at 33.02 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d090c73-b17a-4729-ba19-6c99a43a9129")
+	)
 	(label "AIN2"
 		(at 197.3052 57.15 180)
 		(effects
@@ -4176,6 +4339,16 @@
 		)
 		(uuid "95d03bef-1059-410f-8fc6-85599274b95a")
 	)
+	(label "Buck_PG"
+		(at 165.1 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95df5f3c-352d-4a67-a46d-cee7301ea7ec")
+	)
 	(label "MOTOR_P"
 		(at 227.7852 41.91 0)
 		(effects
@@ -4207,6 +4380,16 @@
 		(uuid "adc79979-7ed8-49f9-a3b7-6b467ddeb702")
 	)
 	(label "PWMA"
+		(at 33.02 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afa873e4-abc9-48b3-9eb3-b071d9074c82")
+	)
+	(label "PWMA"
 		(at 197.3052 46.99 180)
 		(effects
 			(font
@@ -4215,6 +4398,16 @@
 			(justify right bottom)
 		)
 		(uuid "e575c1a2-1c31-4dda-a6fc-99bed8fc0780")
+	)
+	(label "AIN1"
+		(at 33.02 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f98083e1-c7c0-43a0-9020-fe98679d08e0")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4251,7 +4444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "470uF SMD:PCAP_10x10-ELECT_NCA"
 			(at 75.2348 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4311,7 +4504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f75db14-7199-47cd-89a2-8267b8df0e6a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 215.0852 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4371,7 +4564,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17eb2d00-d0dd-410e-b52d-1e975722d48c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 204.9252 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4449,7 +4642,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4467,7 +4660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c78fe27-f57e-4fe9-b4b6-4e3665d7b354")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 106.68 127 0)
 			(hide yes)
 			(show_name no)
@@ -4527,7 +4720,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4609,6 +4802,83 @@
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d9022d3-5723-4190-8eeb-556cc116f418")
+		(property "Reference" "TP9"
+			(at 29.718 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8df73563-53a8-4a7e-aa64-654efd4adbca")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -4704,10 +4974,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "298ee6eb-7a07-4b18-9d10-14976ba1369c")
 		(property "Reference" "R10"
-			(at 167.64 128.2699 0)
+			(at 167.132 127.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4718,7 +4987,7 @@
 			)
 		)
 		(property "Value" "100kR"
-			(at 167.64 130.8099 0)
+			(at 167.132 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4771,6 +5040,83 @@
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "382f41d4-0c30-40be-87c3-96657067e6dd")
+		(property "Reference" "TP7"
+			(at 29.718 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe280bcb-b1af-4ded-b203-f70e3678086f")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -4857,6 +5203,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 33.02 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fe2b6a4-1f60-4fd5-8d1a-c334f98601e6")
+		(property "Reference" "#PWR01"
+			(at 29.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 36.83 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 33.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dbac030-aa39-4aee-adce-0794aac2297f")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 192.2252 59.69 0)
 		(unit 1)
@@ -4868,7 +5293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41638568-ef69-42a1-ac79-4fc9e17f0f3b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 192.2252 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +5353,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5027,7 +5452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439a8275-eb41-4c9f-bca2-d5a39c98d416")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 121.92 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5087,7 +5512,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5170,6 +5595,83 @@
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ad6e8d1-2736-46bd-a2e5-98c47e5e78fd")
+		(property "Reference" "TP6"
+			(at 29.718 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f7bb5ad-29ce-42d9-8ec1-9d0398c1261f")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -5354,6 +5856,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c401afc-8f34-4f11-b87b-38e5d66e77c9")
+		(property "Reference" "TP3"
+			(at 29.718 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e8eecda-12e0-4db6-9d84-5a70946244c7")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c6af2fd-3272-42e2-9763-e0be298e16c6")
+		(property "Reference" "TP8"
+			(at 29.718 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a91c501-54b4-4bac-a748-0eae01d4915e")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 41.91 0)
 		(unit 1)
@@ -5365,7 +6021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cac3ede-4770-42b4-ac8e-7543dd906a0b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 76.2 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5425,7 +6081,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5541,7 +6197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "665c93f4-b76f-41fd-bc4d-d6cfa926eeaa")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 99.06 127 0)
 			(hide yes)
 			(show_name no)
@@ -5601,7 +6257,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5619,7 +6275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69d6caed-d2af-4725-965a-454fd90dc6b1")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 197.3052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5679,7 +6335,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5697,7 +6353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b387258-f052-468b-9c89-f2cac1bef8ef")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5757,7 +6413,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5894,7 +6550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.7148 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5954,7 +6610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787489de-8a3c-4058-b05d-c10b23556668")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 111.76 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6014,7 +6670,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6346,7 +7002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80eff1dd-aace-489d-998e-14775ff79397")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 181.61 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6406,7 +7062,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6424,7 +7080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "815ba781-07dd-44cb-9648-fa9679363a4f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 99.06 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6484,7 +7140,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6502,7 +7158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81661336-6c87-4c24-af75-d703f5512e05")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 106.68 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6562,7 +7218,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6580,7 +7236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "844329e2-9962-48e8-81b7-bbbaad322dd0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 132.08 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6640,7 +7296,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6658,7 +7314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86138549-8ca9-4749-aa90-287edef5ed34")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 163.83 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6718,7 +7374,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6735,7 +7391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bcda545-7d92-46ac-a2fa-0b1415aa0da2")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 124.46 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6795,7 +7451,84 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR014")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c252ac9-df83-485e-a3c1-9b45b51e6b38")
+		(property "Reference" "TP2"
+			(at 29.718 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1fa9881-f6b2-4e6f-95d5-73805e7a4d65")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6904,7 +7637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99f8d1b7-9647-4c5b-9b48-3def77b13c9d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 111.76 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6964,7 +7697,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7091,7 +7824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c134b9-fdac-4437-addb-475666f71875")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 124.46 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7151,7 +7884,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7169,7 +7902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d6ab52-62c4-4e6c-b3a0-844c7227a1bd")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 220.1652 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7229,7 +7962,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7432,7 +8165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 100.0252 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7492,7 +8225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae01c977-b760-4940-81a8-e7cb65409fd3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 217.6252 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7552,7 +8285,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7570,7 +8303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afc17be0-426e-42b3-b1dd-8caa42a336b0")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 188.4152 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7630,7 +8363,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7710,6 +8443,83 @@
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b50cdaa2-232f-4ba0-a3ee-050b1cb9651f")
+		(property "Reference" "TP5"
+			(at 29.718 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef1eca3f-6912-4118-b67a-a9bb1dea7111")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7880,6 +8690,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be219d80-9d15-47dc-9a66-add5c9b5ecb1")
+		(property "Reference" "TP4"
+			(at 29.718 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19a5ccb6-3e2d-4219-9669-b8d71c73ca77")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50bf6ea-3730-45d7-b145-c020ce5fddc2")
+		(property "Reference" "TP1"
+			(at 29.718 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 29.718 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4bf8d44-0346-46db-ac85-7f28361078bb")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 259.08 71.12 0)
 		(unit 1)
@@ -7911,7 +8875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 259.08 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7985,6 +8949,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 33.02 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca9260d7-f0e1-47bf-8f00-eaaff1e7f530")
+		(property "Reference" "#PWR03"
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 91.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2931835d-b6ab-4df4-b956-67136cd25d0d")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 149.86 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -7995,7 +9038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb6a46d-baed-4048-8d43-84d0b8b18c2d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8055,7 +9098,86 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR016")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 33.02 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d90a99ac-b1f5-49ff-bc60-4162069f370d")
+		(property "Reference" "#PWR02"
+			(at 29.21 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 36.83 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30c084fb-bfbf-4bfb-80c9-ab1e26854daa")
+		)
+		(instances
+			(project "two_axis_balancing_power"
+				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8073,7 +9195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd57f601-3c36-404d-90ad-271aa5be3bde")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 90.17 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8133,7 +9255,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8400,7 +9522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e789301c-6383-4c33-8bac-c5821c18fe14")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 165.1 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8460,7 +9582,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8478,7 +9600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c67a1d-3a5f-437d-b77e-43ab2197ebd3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 194.7652 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8538,7 +9660,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8556,7 +9678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea556ccb-ef8b-4309-9694-4efb48c2db22")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8616,7 +9738,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8634,7 +9756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee58d143-3740-446b-9c3e-a9bfe4fc85f0")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 62.23 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8694,7 +9816,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8712,7 +9834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c5e94a-7855-4cba-9507-2145e6d663f9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 181.61 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8772,7 +9894,7 @@
 		(instances
 			(project "two_axis_balancing_power"
 				(path "/58e6eab4-1958-4b8d-87c4-f6209b9a30a5"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
