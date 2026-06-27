@@ -407,6 +407,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -3984,12 +4107,6 @@
 		)
 	)
 	(junction
-		(at 170.18 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16f631b6-583e-4422-bd38-573a02b64109")
-	)
-	(junction
 		(at 129.54 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4008,7 +4125,7 @@
 		(uuid "5a566a3c-b4f2-4d6c-a62a-a86f6a809340")
 	)
 	(junction
-		(at 76.2 88.9)
+		(at 77.47 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ba9c19e-1c0d-45ab-8154-72f6d3f35440")
@@ -4026,7 +4143,13 @@
 		(uuid "78dffe84-27a8-4bd4-8f95-f95bea4061ad")
 	)
 	(junction
-		(at 43.18 88.9)
+		(at 170.18 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e737ae6-01b0-40e7-a8f1-4c81e3e96a19")
+	)
+	(junction
+		(at 44.45 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7b69d85-c217-4375-9023-f76554e0e515")
@@ -4038,22 +4161,10 @@
 		(uuid "af68932b-2b15-4597-ae93-cc9109a4c85f")
 	)
 	(junction
-		(at 180.34 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be908655-8265-48fd-b98b-b0d67cdaa3bd")
-	)
-	(junction
-		(at 180.34 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c796acfd-a8fe-43ad-9727-f02254f31015")
-	)
-	(junction
 		(at 170.18 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d1c79cf0-4313-4f6e-b180-a3e6fc4d9d52")
+		(uuid "d9631926-a1a0-42d8-9e9f-d2d960eab098")
 	)
 	(no_connect
 		(at 106.68 152.4)
@@ -4076,14 +4187,6 @@
 		(uuid "125fb9dd-394b-44a9-a291-49a9824f6904")
 	)
 	(no_connect
-		(at 106.68 157.48)
-		(uuid "1e45f934-d923-468e-a65d-69ac3b58b9b3")
-	)
-	(no_connect
-		(at 219.71 127)
-		(uuid "273920ee-a799-4057-8930-906f977fa8d9")
-	)
-	(no_connect
 		(at 219.71 137.16)
 		(uuid "2edf77ab-a3ef-495d-8588-637985ff2d6d")
 	)
@@ -4092,24 +4195,24 @@
 		(uuid "3c527e21-96a3-4ac4-b1fa-5046bd7bebae")
 	)
 	(no_connect
-		(at 106.68 127)
-		(uuid "3d98aa5a-3761-4290-a27d-7d9d03167953")
-	)
-	(no_connect
 		(at 152.4 124.46)
 		(uuid "417b7ec8-8704-4d5c-9018-a13f073b9566")
-	)
-	(no_connect
-		(at 106.68 139.7)
-		(uuid "44e5f61e-00ec-4fff-aa48-2aaef8694797")
 	)
 	(no_connect
 		(at 106.68 129.54)
 		(uuid "467c71ad-3ae4-4b76-ba69-21e0b2a097ba")
 	)
 	(no_connect
+		(at 152.4 152.4)
+		(uuid "474b8e65-492b-4bc3-b254-804d76638645")
+	)
+	(no_connect
 		(at 106.68 147.32)
 		(uuid "475d349b-8ec1-4b3b-af54-5fd5129badf3")
+	)
+	(no_connect
+		(at 106.68 127)
+		(uuid "47ebb4c3-7cc0-46d5-85bc-30c29dd33107")
 	)
 	(no_connect
 		(at 173.99 116.84)
@@ -4118,14 +4221,6 @@
 	(no_connect
 		(at 173.99 152.4)
 		(uuid "4d2aacee-fcc1-4eef-92e5-fe8c1a434ce6")
-	)
-	(no_connect
-		(at 219.71 124.46)
-		(uuid "4e3741dc-b15b-4c74-8c88-6db2ab70ec00")
-	)
-	(no_connect
-		(at 219.71 129.54)
-		(uuid "4ffa1218-4562-4d26-8094-5c8837b2fd33")
 	)
 	(no_connect
 		(at 173.99 142.24)
@@ -4144,10 +4239,6 @@
 		(uuid "6516ee41-e586-46a3-b7ef-45d91d7f31c6")
 	)
 	(no_connect
-		(at 106.68 144.78)
-		(uuid "77027cda-a1d5-4025-814e-a7972967e4a6")
-	)
-	(no_connect
 		(at 152.4 154.94)
 		(uuid "7a43dade-82b0-497c-88fe-67b0e9d3aaf0")
 	)
@@ -4162,10 +4253,6 @@
 	(no_connect
 		(at 152.4 132.08)
 		(uuid "8e101a21-0861-4184-9147-6e78ad584c2a")
-	)
-	(no_connect
-		(at 106.68 142.24)
-		(uuid "961d16b1-66bf-4963-984b-f5f05509be2e")
 	)
 	(no_connect
 		(at 173.99 134.62)
@@ -4186,6 +4273,10 @@
 	(no_connect
 		(at 219.71 144.78)
 		(uuid "acc35534-f2dd-4cff-a457-df346e5d850e")
+	)
+	(no_connect
+		(at 219.71 139.7)
+		(uuid "ad824100-6a5d-4e39-84cd-56f9f28568b4")
 	)
 	(no_connect
 		(at 219.71 119.38)
@@ -4255,15 +4346,9 @@
 		(at 173.99 144.78)
 		(uuid "f8c2973b-677c-4349-9d0c-baa3699a54d4")
 	)
-	(wire
-		(pts
-			(xy 153.67 152.4) (xy 152.4 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7b277c-10c4-4ca9-9397-082bec75c29e")
+	(no_connect
+		(at 219.71 116.84)
+		(uuid "f9212965-793d-443e-8a83-22c480e96143")
 	)
 	(wire
 		(pts
@@ -4287,6 +4372,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 139.7) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ad4c88-a819-4bd0-8908-44e6c43dd7b8")
+	)
+	(wire
+		(pts
 			(xy 129.54 82.55) (xy 129.54 85.09)
 		)
 		(stroke
@@ -4304,16 +4399,6 @@
 			(type default)
 		)
 		(uuid "316f9afa-d841-4804-af15-25f17e3edd8b")
-	)
-	(wire
-		(pts
-			(xy 220.98 139.7) (xy 219.71 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375e7025-8792-4bfd-947b-ae5c7725f30a")
 	)
 	(wire
 		(pts
@@ -4347,7 +4432,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 88.9) (xy 45.72 88.9)
+			(xy 105.41 157.48) (xy 106.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4661ca18-4a1a-46b8-9e50-ca2eabdfe57b")
+	)
+	(wire
+		(pts
+			(xy 44.45 77.47) (xy 46.99 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4357,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 91.44) (xy 43.18 91.44)
+			(xy 46.99 80.01) (xy 44.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4367,17 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 116.84) (xy 219.71 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d36ed16-2826-4944-987f-82cb858d3ccd")
-	)
-	(wire
-		(pts
-			(xy 63.5 91.44) (xy 60.96 91.44)
+			(xy 64.77 80.01) (xy 62.23 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4397,6 +4482,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 127) (xy 219.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d26cad6-f190-410f-b75f-7dacd9ca938f")
+	)
+	(wire
+		(pts
 			(xy 172.72 129.54) (xy 173.99 129.54)
 		)
 		(stroke
@@ -4407,6 +4502,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 142.24) (xy 106.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c593200-5032-422d-a236-4c83817f58ca")
+	)
+	(wire
+		(pts
 			(xy 153.67 149.86) (xy 152.4 149.86)
 		)
 		(stroke
@@ -4414,26 +4519,6 @@
 			(type default)
 		)
 		(uuid "b1055a32-cd0a-4f6a-be9f-5e09db309401")
-	)
-	(wire
-		(pts
-			(xy 170.18 48.26) (xy 180.34 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b423af7c-a354-4382-aaa5-5bf8e29cb159")
-	)
-	(wire
-		(pts
-			(xy 170.18 40.64) (xy 180.34 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b74a5f68-97d4-4677-aa51-18852ae8fec8")
 	)
 	(wire
 		(pts
@@ -4467,7 +4552,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 88.9) (xy 43.18 88.9)
+			(xy 41.91 77.47) (xy 44.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4477,7 +4562,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 40.64) (xy 180.34 40.64)
+			(xy 220.98 129.54) (xy 219.71 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d022af6f-9a98-4292-930c-b4f991cebbec")
+	)
+	(wire
+		(pts
+			(xy 170.18 40.64) (xy 179.07 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4487,7 +4582,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 88.9) (xy 76.2 88.9)
+			(xy 62.23 77.47) (xy 77.47 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4507,7 +4602,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 48.26) (xy 180.34 48.26)
+			(xy 170.18 48.26) (xy 179.07 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4517,13 +4612,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 152.4) (xy 219.71 152.4)
+			(xy 105.41 144.78) (xy 106.68 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1952412-d92c-4d3a-891a-95cea1678b8b")
+		(uuid "e3bb1906-0f7a-4e95-960f-38fed8d03c0d")
 	)
 	(wire
 		(pts
@@ -4534,6 +4629,16 @@
 			(type default)
 		)
 		(uuid "e527f0f6-5660-4016-984c-abca33237852")
+	)
+	(wire
+		(pts
+			(xy 220.98 124.46) (xy 219.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafc8bc0-4f24-4ed6-b840-0eb26ebc16ac")
 	)
 	(wire
 		(pts
@@ -4577,7 +4682,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 91.44) (xy 43.18 88.9)
+			(xy 44.45 80.01) (xy 44.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4605,6 +4710,16 @@
 		)
 		(uuid "06f1e26f-4f7c-4a5f-bfeb-fe4626598f00")
 	)
+	(label "RX"
+		(at 68.58 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10450d39-51e9-4ddb-9e0e-d1dfddba57f0")
+	)
 	(label "GND"
 		(at 59.69 50.8 0)
 		(effects
@@ -4614,6 +4729,16 @@
 			(justify left bottom)
 		)
 		(uuid "142a0d1f-4e9d-45fe-9893-3b61df817754")
+	)
+	(label "INT1"
+		(at 68.58 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16d62dfa-5286-407c-97d1-3d8bdd686752")
 	)
 	(label "STBY"
 		(at 46.99 45.72 180)
@@ -4625,6 +4750,16 @@
 		)
 		(uuid "1785a653-b0c3-4cee-9c7a-79d4164cd83a")
 	)
+	(label "TX"
+		(at 220.98 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "179ebe47-3b51-4923-b428-028214693711")
+	)
 	(label "SDO"
 		(at 172.72 127 180)
 		(effects
@@ -4635,8 +4770,28 @@
 		)
 		(uuid "17ec91ae-28a8-4229-b04f-1b5062bcd010")
 	)
+	(label "SDI"
+		(at 49.53 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19c3d2dd-913f-44dc-b226-4fd74baa80e9")
+	)
 	(label "ENC_B"
-		(at 254 72.39 0)
+		(at 68.58 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21565e71-6005-455a-b4fb-9fe26a4219d5")
+	)
+	(label "ENC_B"
+		(at 254 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4676,7 +4831,7 @@
 		(uuid "4119ccd9-b461-4a0e-9423-c755b361e1a1")
 	)
 	(label "CANL"
-		(at 189.23 48.26 0)
+		(at 179.07 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4705,18 +4860,48 @@
 		)
 		(uuid "4e852231-8cf7-4897-b2fb-54c46d00d6ae")
 	)
-	(label "BAT_LOW"
-		(at 220.98 139.7 0)
+	(label "INT2"
+		(at 68.58 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
+		(uuid "4fb0a9e0-11d2-4c36-8a5d-8940dbb53cd6")
+	)
+	(label "CS"
+		(at 49.53 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58c36f56-f3b7-4121-9bba-ade2aed73eee")
+	)
+	(label "BAT_LOW"
+		(at 105.41 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
 		(uuid "5c4254e2-2d66-44a2-b838-253f83999359")
 	)
+	(label "TX"
+		(at 68.58 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d2d5453-15ec-4f6e-9c3e-7763029628cf")
+	)
 	(label "ENC_A"
-		(at 254 69.85 0)
+		(at 254 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4744,6 +4929,26 @@
 			(justify right bottom)
 		)
 		(uuid "75f95b51-a73c-48d2-8dae-4164384de6a8")
+	)
+	(label "SDO"
+		(at 49.53 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78171f25-28ca-4f69-9b88-02bbfeb82810")
+	)
+	(label "CS"
+		(at 220.98 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b24ac16-d273-4e92-ba8c-d160f8942835")
 	)
 	(label "ENC_B"
 		(at 153.67 149.86 0)
@@ -4775,6 +4980,16 @@
 		)
 		(uuid "8a840fab-c7ec-47f3-a6ec-3e99cf8b4700")
 	)
+	(label "SCLK"
+		(at 49.53 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d73affc-b11d-4e61-a98a-1e3733260417")
+	)
 	(label "CANH"
 		(at 254 35.56 0)
 		(effects
@@ -4786,34 +5001,44 @@
 		(uuid "93423f3c-e6ce-4a51-83a9-0c97e4f7652f")
 	)
 	(label "STBY"
-		(at 153.67 152.4 0)
+		(at 105.41 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "97b91a53-5eb2-4cd4-ae8e-ea9a8da34702")
 	)
 	(label "AIN1"
-		(at 220.98 152.4 0)
+		(at 105.41 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9bc08608-5706-4043-9658-64586229b21e")
 	)
 	(label "AIN2"
-		(at 220.98 116.84 0)
+		(at 105.41 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f6ae35a-9c9c-4eba-bff4-af5cbf71b69b")
+	)
+	(label "ENC_A"
+		(at 68.58 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9f6ae35a-9c9c-4eba-bff4-af5cbf71b69b")
+		(uuid "a7e96413-9e2d-41c1-93ef-7f49e123b890")
 	)
 	(label "PWMA"
 		(at 153.67 157.48 0)
@@ -4856,7 +5081,7 @@
 		(uuid "b636289e-f688-478b-b357-8e36ba49b444")
 	)
 	(label "CANH"
-		(at 189.23 40.64 0)
+		(at 179.07 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4965,9 +5190,19 @@
 		)
 		(uuid "fe1be5b3-a15f-4cea-ba31-1895dc730440")
 	)
+	(label "RX"
+		(at 220.98 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff99ad65-38f9-454a-8426-234213cf56d1")
+	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 95.25 0)
+		(at 64.77 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4977,7 +5212,7 @@
 		(dnp no)
 		(uuid "04031c14-0ea6-4d33-bfa0-1479055e68ef")
 		(property "Reference" "C1"
-			(at 67.31 93.9799 0)
+			(at 68.58 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4988,7 +5223,7 @@
 			)
 		)
 		(property "Value" "470pF"
-			(at 67.31 96.5199 0)
+			(at 68.58 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4999,7 +5234,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 64.4652 99.06 0)
+			(at 65.7352 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,7 +5245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 95.25 0)
+			(at 64.77 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5021,7 +5256,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 63.5 95.25 0)
+			(at 64.77 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5204,8 +5439,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 99.06 0)
+		(lib_id "Connector:TestPoint")
+		(at 68.58 148.59 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5214,10 +5449,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "174e111a-2d7e-421b-a07a-15ea789e50a9")
-		(property "Reference" "#PWR04"
-			(at 53.34 105.41 0)
-			(hide yes)
+		(uuid "0e11669c-86e5-4357-ab2e-3d567e6af6b0")
+		(property "Reference" "TP11"
+			(at 65.278 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5226,8 +5460,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 53.34 104.14 0)
+		(property "Value" "TestPoint"
+			(at 65.278 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5236,8 +5470,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 99.06 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 68.58 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5248,7 +5482,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 99.06 0)
+			(at 68.58 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eff20cf7-68e9-495c-80c0-f10fa14ca85c")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10aa08e1-677b-430b-8f22-e7996df33fd8")
+		(property "Reference" "TP1"
+			(at 46.228 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 49.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e8e51fa-589b-4971-a5bd-205d6bf11573")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "174e111a-2d7e-421b-a07a-15ea789e50a9")
+		(property "Reference" "#PWR04"
+			(at 54.61 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +5648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 99.06 0)
+			(at 54.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5354,6 +5743,83 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a273c01-bf45-48b7-8931-f33886a38514")
+		(property "Reference" "TP9"
+			(at 65.278 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 65.278 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 68.58 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6559caf5-3892-414c-8639-822554c0bf5a")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -5472,7 +5938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 248.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5599,6 +6065,162 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36f1231a-d6c5-4034-8f38-e381c4458a12")
+		(property "Reference" "#PWR028"
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5554a507-0573-441c-a2a8-19e81d4da441")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2c7200-b177-4124-8cca-294bcd83354d")
+		(property "Reference" "TP3"
+			(at 46.228 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 49.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fed0214e-031d-42d3-824d-dd93024de845")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6081,6 +6703,160 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ac9bb3-db8b-45eb-936e-d21d1ed24d29")
+		(property "Reference" "TP8"
+			(at 65.278 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 65.278 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 68.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6363e4ab-13cf-44c4-94a2-0558b0c8508a")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c75ceab-bef9-4121-ab45-8321ac08d358")
+		(property "Reference" "TP7"
+			(at 46.228 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 49.53 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d10f0bdb-e482-49ee-8688-b689427d52f3")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -6809,6 +7585,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b48790d-6f7d-4088-85a0-827b97f9d39c")
+		(property "Reference" "TP4"
+			(at 46.228 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 49.53 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "863b49a3-5c08-40fe-8fd7-21175b3f5031")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 74.93 0)
 		(unit 1)
@@ -6887,8 +7740,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 76.2 88.9 0)
+		(lib_id "power:GND")
+		(at 219.71 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6897,9 +7750,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "968da08c-58c0-4aa7-9543-f394e59e707e")
-		(property "Reference" "#PWR02"
-			(at 76.2 92.71 0)
+		(uuid "877e4ca2-4b8f-47ad-9f44-def76727e1ed")
+		(property "Reference" "#PWR027"
+			(at 226.06 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6909,18 +7762,19 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 76.2 83.82 0)
+		(property "Value" "GND"
+			(at 223.52 149.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 88.9 0)
+			(at 219.71 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +7785,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 88.9 0)
+			(at 219.71 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c5337d1-c697-4767-b280-a30ab396529b")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 77.47 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "968da08c-58c0-4aa7-9543-f394e59e707e")
+		(property "Reference" "#PWR02"
+			(at 77.47 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 77.47 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6942,7 +7874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 76.2 88.9 0)
+			(at 77.47 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,6 +7891,85 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 49.53 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aa9a6f6-7d13-4a23-8e40-1bfa31fa32de")
+		(property "Reference" "#PWR029"
+			(at 45.72 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 53.34 128.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 49.53 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da8a60e1-7f21-4b07-8f36-e20cd0a6b890")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7065,8 +8076,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 99.06 0)
+		(lib_id "Connector:TestPoint")
+		(at 68.58 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7075,10 +8086,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac2c8c63-3add-484f-874a-0aba7ad4280e")
-		(property "Reference" "#PWR03"
-			(at 63.5 105.41 0)
-			(hide yes)
+		(uuid "a839cee0-7df3-488c-a8cd-df7449a5c495")
+		(property "Reference" "TP12"
+			(at 65.278 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7087,8 +8097,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 63.5 104.14 0)
+		(property "Value" "TestPoint"
+			(at 65.278 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7097,8 +8107,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 99.06 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 68.58 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7109,7 +8119,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 99.06 0)
+			(at 68.58 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f850f74-8a1a-444c-abfb-ef783bff8500")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a85ee7ef-9b6a-423b-96dd-14e465dd3b86")
+		(property "Reference" "TP10"
+			(at 65.278 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 65.278 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 68.58 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ac548c2-d79f-4e07-9640-85cb6c2aeecc")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac2c8c63-3add-484f-874a-0aba7ad4280e")
+		(property "Reference" "#PWR03"
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7120,7 +8285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 99.06 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7137,6 +8302,85 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f14f09-ae80-4e8d-a33b-de5a47361403")
+		(property "Reference" "#PWR030"
+			(at 55.88 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe33db4a-f6a1-4ca0-a9a6-29640331f201")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7221,6 +8465,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b65669d5-c419-4138-a398-05c5cee9f4b4")
+		(property "Reference" "TP5"
+			(at 46.228 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 49.53 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff20f969-4106-47c2-bf38-ec637eb33058")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 134.62 90)
 		(unit 1)
@@ -7294,6 +8615,83 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcc84db7-50e4-4865-85a1-9118ba245f26")
+		(property "Reference" "TP2"
+			(at 46.228 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 49.53 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9efce776-749e-4af7-b739-5a25da949b71")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7480,88 +8878,6 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 180.34 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca46d56f-34af-43b2-87cd-3e6641c3ccd9")
-		(property "Reference" "R2"
-			(at 182.88 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120R"
-			(at 182.88 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.356 44.704 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 180.34 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7b1152ce-2e40-4470-8fd6-e9b2a3d4c853")
-		)
-		(pin "1"
-			(uuid "02a68dd6-ca7b-4369-865b-5c96b810ce3f")
-		)
-		(instances
-			(project "two_axis_balancing_carrier"
-				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8097,7 +9413,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 40.64 88.9 0)
+		(at 41.91 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8108,7 +9424,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf2e3884-3334-4f15-972e-87a3d1efa991")
 		(property "Reference" "#PWR01"
-			(at 40.64 92.71 0)
+			(at 41.91 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8119,7 +9435,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 40.64 83.82 0)
+			(at 41.91 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8129,7 +9445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 88.9 0)
+			(at 41.91 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8140,7 +9456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 88.9 0)
+			(at 41.91 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +9467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 40.64 88.9 0)
+			(at 41.91 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,7 +9569,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 92.71 0)
+		(at 77.47 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8264,7 +9580,7 @@
 		(fields_autoplaced yes)
 		(uuid "d46d57ac-4eb3-43a1-aab6-3810d00fc29f")
 		(property "Reference" "C2"
-			(at 80.01 91.4399 0)
+			(at 81.28 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8275,7 +9591,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 80.01 93.9799 0)
+			(at 81.28 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8286,7 +9602,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 77.1652 96.52 0)
+			(at 78.4352 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8297,7 +9613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 92.71 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8308,7 +9624,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 92.71 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +9807,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 96.52 0)
+		(at 77.47 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8502,7 +9818,7 @@
 		(fields_autoplaced yes)
 		(uuid "df00b6d4-4ce8-4cc8-84ff-6b2154a50533")
 		(property "Reference" "#PWR06"
-			(at 76.2 102.87 0)
+			(at 77.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8513,7 +9829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 101.6 0)
+			(at 77.47 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8523,7 +9839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 96.52 0)
+			(at 77.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,7 +9850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 96.52 0)
+			(at 77.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8545,7 +9861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 96.52 0)
+			(at 77.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8562,6 +9878,83 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e434d6ab-bc89-49bc-a434-e981300b6b5f")
+		(property "Reference" "TP6"
+			(at 46.228 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 49.53 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8a3f038-38c8-47b9-a29b-96b6aec3c330")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8916,7 +10309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 248.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8969,7 +10362,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:MIC5219-3.3YM5")
-		(at 53.34 91.44 0)
+		(at 54.61 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8980,7 +10373,7 @@
 		(fields_autoplaced yes)
 		(uuid "f85cdadd-f346-4160-ab59-525bba079fa3")
 		(property "Reference" "U2"
-			(at 53.34 82.55 0)
+			(at 54.61 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8990,7 +10383,7 @@
 			)
 		)
 		(property "Value" "MIC5219-3.3YM5"
-			(at 53.34 85.09 0)
+			(at 54.61 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9000,7 +10393,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 53.34 83.185 0)
+			(at 54.61 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9011,7 +10404,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf"
-			(at 53.34 91.44 0)
+			(at 54.61 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,7 +10415,7 @@
 			)
 		)
 		(property "Description" "500mA low dropout linear regulator, fixed 3.3V output, SOT-23-5"
-			(at 53.34 91.44 0)
+			(at 54.61 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9051,6 +10444,83 @@
 			(project "two_axis_balancing_carrier"
 				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f970a62b-1b5f-4b39-b8ee-fddc5d0da747")
+		(property "Reference" "TP13"
+			(at 65.278 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 65.278 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 68.58 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26e394e0-cb0b-4dff-9673-831cacabd2c7")
+		)
+		(instances
+			(project "two_axis_balancing_carrier"
+				(path "/cc26ec2d-6689-4a8a-a91e-d244c59dc160"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
