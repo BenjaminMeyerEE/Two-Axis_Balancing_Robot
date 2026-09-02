@@ -40,7 +40,7 @@ design is partly finished.
 I simulated the pitch axis in Simulink first. That's what pushed me to LQR: the axes
 are cross-coupled, and tuning them as separate loops was difficult enough that full
 state feedback made more sense than fighting the interaction by hand. What I'm working
-on now is a model to pick the Q and R weighting matrices instead of guessing at them.
+on now is deriving the equations for motion for the entire system from the Lagrangian, linearizing about the upright equilibrium, and designing a discrete-time LQR to stabilize it, implementing Bryson's rule to set cost weights. This all is being done in ATLAB
 
 ## Repository layout
 
