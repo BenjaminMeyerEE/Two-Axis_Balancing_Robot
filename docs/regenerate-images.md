@@ -14,7 +14,7 @@ project folder under `hardware/`.
 ## 3D renders
 
     kicad-cli pcb render -o docs/$N-iso.png --quality high --perspective \
-      --rotate '-30,0,-35' --zoom 0.9 --width 1800 --height 1350 \
+      --rotate '-30,0,-35' --zoom 0.7 --width 1800 --height 1350 \
       --background transparent hardware/$B/$B.kicad_pcb
 
     kicad-cli pcb render -o docs/$N-top.png --side top --quality high \
