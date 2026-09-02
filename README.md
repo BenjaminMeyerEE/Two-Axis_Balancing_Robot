@@ -37,12 +37,7 @@ IMU on a custom carrier board. Two custom 4-layer boards, designed in KiCad.
 Both custom PCBs are designed and the electrical architecture is laid out. Mechanical
 design is partly finished.
 
-I simulated the pitch axis in Simulink first. That's what pushed me to LQR: the axes
-are cross-coupled, and tuning them as separate loops was difficult enough that full
-state feedback made more sense than fighting the interaction by hand. What I'm working
-on now is deriving the equations for motion for the entire system from the Lagrangian, linearizing about the upright equilibrium, and designing a discrete-time LQR to stabilize it, implementing Bryson's rule to set cost weights. This all is being done in ATLAB
-
-## Repository layout
+I simulated the pitch axis first, and that's what pushed me toward LQR. Wheel position and tilt are coupled through the dynamics, so tuning them as separate loops meant the two kept fighting each other — full state feedback made more sense than trying to manage that interaction by hand. What I'm working on now is deriving the equations of motion using Lagrangian mechanics, linearizing about the upright equilibrium, and designing a discrete-time LQR, using Bryson's rule to set the cost weights. It's all in MATLAB## Repository layout
 
 | Path | Contents |
 |---|---|
