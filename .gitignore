@@ -1,9 +1,26 @@
-*-backups/
+# ── KiCad ─────────────────────────────────────────────────────────────
+# Local UI/session state, per-machine
 *.kicad_prl
+
+# Backups and autosaves
+*-backups/
 *.bak
 *.kicad_sch-bak
 *.kicad_pcb-bak
-fp-info-cache
-~*.lck
 _autosave-*
+~*.lck
+
+# Caches and exports regenerated from the schematic/PCB
+fp-info-cache
+*.net
+
+# ── IDE / editor metadata ─────────────────────────────────────────────
 .history/
+.vscode/
+.idea/
+.claude/
+
+# ── OS / OneDrive junk ────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
