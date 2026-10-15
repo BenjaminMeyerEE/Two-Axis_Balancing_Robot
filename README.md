@@ -37,7 +37,15 @@ IMU on a custom carrier board. Two custom 4-layer boards, designed in KiCad.
 Both custom PCBs are designed and the electrical architecture is laid out. Mechanical
 design is partly finished.
 
-I simulated the pitch axis in Simulink first, and that's what pushed me away from PID and toward LQR. Wheel position and tilt are coupled through the dynamics, so tuning them as separate loops meant the two kept fighting each other — full state feedback made more sense than trying to manage that interaction by hand. What I'm working on now is deriving the equations of motion using Lagrangian mechanics, linearizing about the upright equilibrium, and designing a discrete-time LQR, using Bryson's rule to set the cost weights. This is all being done in MATLAB
+I simulated the pitch axis in Simulink first, and that's what pushed me away from PID
+and toward LQR. Wheel position and tilt are coupled through the dynamics, so tuning
+them as separate loops meant the two kept fighting each other. Full state feedback
+made more sense than trying to manage that interaction by hand.
+
+What I'm working on now is the model itself: deriving the equations of motion with
+Lagrangian mechanics, linearizing about the upright equilibrium, and designing a
+discrete-time LQR with Bryson's rule setting the cost weights. That work is all in
+MATLAB.
 
 ## Repository layout
 
@@ -102,3 +110,19 @@ carrier board. The MCU sees both the raw level and a latched low flag.
 | `In2.Cu` | `B.Cu` |
 |---|---|
 | ![In2.Cu](docs/power-layer-in2-cu.svg) | ![B.Cu](docs/power-layer-b-cu.svg) |
+
+### Connectors
+
+| Board | Ref | Connector | Carries |
+|---|---|---|---|
+| Power | `J1` | XT60 | 3S battery in |
+| Power | `J3` | JST XH, 2-pin | Roll motor out (`MOTOR_P` / `MOTOR_N`) |
+| Power | `J2` | IDC 2×5 | To the carrier board |
+| Carrier | `J5` | IDC 2×5 | To the power board |
+| Carrier | `J2` | JST XH, 4-pin | Roll encoder (`ENC_A`, `ENC_B`, 5 V, GND) |
+| Carrier | `J1` | JST GH, 3-pin | CAN to the VESC (`CANH`, `CANL`, GND) |
+
+The 2×5 ribbon is the only link between the two boards. It carries the 5 V rail and
+ground, the four TB6612FNG control lines (`AIN1`, `AIN2`, `PWMA`, `STBY`) and the two
+battery monitoring signals (`BAT_LEV`, `BAT_LOW`). VBAT never reaches the carrier
+board, which only ever sees 5 V.
