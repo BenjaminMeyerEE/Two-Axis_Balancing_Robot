@@ -7754,7 +7754,7 @@
 		)
 		(uuid "b804d2b3-e98b-456c-8135-8f6bc6fd7420")
 	)
-	(label "GND"
+	(label "+3.3V"
 		(at 59.69 45.72 0)
 		(effects
 			(font
@@ -8573,7 +8573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.78 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8963,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 137.16 150.622 90)
 			(hide yes)
 			(show_name no)
@@ -9042,7 +9042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 229.87 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -9135,7 +9135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.81 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9460,7 +9460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.53 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10831,7 +10831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 142.24 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10913,7 +10913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 259.08 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -11187,7 +11187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.78 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11816,7 +11816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.898 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -12510,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.11 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12592,7 +12592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm"
 			(at 158.75 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12934,7 +12934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.38 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13328,7 +13328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 259.08 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -13996,7 +13996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14156,7 +14156,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 228.6 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14396,7 +14396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
 			(at 264.16 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14669,7 +14669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15690,7 +15690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 214.63 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -15850,7 +15850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16173,7 +16173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 229.87 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -16266,7 +16266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 138.43 0)
 			(hide yes)
 			(show_name no)
