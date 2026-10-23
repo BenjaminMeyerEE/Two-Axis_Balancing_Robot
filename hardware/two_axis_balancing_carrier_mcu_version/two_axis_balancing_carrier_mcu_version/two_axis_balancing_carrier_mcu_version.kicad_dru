@@ -1,0 +1,7 @@
+(version 1)
+
+# ICM-42688-P (LGA-14, 0.5 mm pitch): the footprint's own pads sit 0.195 mm apart,
+# just under the board-wide 0.2 mm clearance. Allow it between U2's pads only.
+(rule "IMU pad-to-pad"
+	(condition "A.memberOfFootprint('U2') && B.memberOfFootprint('U2')")
+	(constraint clearance (min 0.15mm)))
